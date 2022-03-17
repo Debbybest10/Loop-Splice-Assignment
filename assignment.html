@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <title>Document</title>
+</head>
+<style>
+    .tab{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 20px;
+    }
+    .inps-tabs{
+     margin-left: 100px;
+    }
+    input{
+        margin-top: 10px;
+        
+    }
+    table th,
+    td,
+    tr {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    button{
+        margin-top: 20px;
+    }
+
+</style>
+
+<body>
+    <div></div>
+    <div class="tab">
+    <table id="table">
+        <!-- <th>S/N</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>GENDER</th> -->
+        
+         </table>
+        </div>
+
+         <div class="inps-btn">
+         <input type="text" placeholder="name" id="my_name" oninput="handle_name(this)"><br>
+         <input type="text" placeholder="age" id="my_age" oninput="handle_age(this)"><br>
+         <input type="text" placeholder="gender" id="my_gender" oninput="handle_gender(this)"><br>
+         <button class="bg-primary" onclick="handle_add()">ADD INFO</button>
+        </div>
+
+
+
+    <script src="./assignment.js"></script>
+</body>
+
+</html>
